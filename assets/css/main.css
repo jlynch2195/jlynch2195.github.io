@@ -2622,6 +2622,7 @@ input, select, textarea {
 				}
 
 				.tiles article > .image:after {
+					display: none;
 					pointer-events: none;
 					-moz-transition: opacity 0.5s ease;
 					-webkit-transition: opacity 0.5s ease;
