@@ -2604,6 +2604,7 @@ input, select, textarea {
 				}
 
 				.tiles article > .image:before {
+					display: none;
 					pointer-events: none;
 					-moz-transition: background-color 0.5s ease, opacity 0.5s ease;
 					-webkit-transition: background-color 0.5s ease, opacity 0.5s ease;
