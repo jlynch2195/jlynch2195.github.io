@@ -2640,7 +2640,7 @@ input, select, textarea {
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
-					opacity: 0;
+					opacity: 0.8;
 					z-index: 2;
 				}
 
