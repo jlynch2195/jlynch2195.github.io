@@ -2720,11 +2720,11 @@ input, select, textarea {
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #226034;
 			}
 
 			.tiles article.style4 > a {
-				color: #FFFFFF;  /* Change to whatever color you want */
+				color: #000000;  /* Change to whatever color you want */
 			}
 
 			.tiles article.style5 > .image:before {
