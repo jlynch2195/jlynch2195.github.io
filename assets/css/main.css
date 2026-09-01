@@ -3345,3 +3345,24 @@ input, select, textarea {
 			}
 
 		}
+
+.image-wrapper {
+    display: flex;
+    gap: 1.5em;
+    margin-bottom: 2em;
+    float: left;
+    width: 100%;
+}
+
+.portrait-left {
+    width: 45%;
+    border-radius: 4px;
+    float: left;
+    margin-right: 1.5em;
+}
+
+.portrait-right {
+    width: 45%;
+    border-radius: 4px;
+    float: left;
+}
