@@ -2727,6 +2727,10 @@ input, select, textarea {
 				color: #000000;  /* Change to whatever color you want */
 			}
 
+			.tiles article.style4 > a:hover {
+				color: #000000 !important;  /* Change to whatever color you want */
+			}
+
 			.tiles article.style5 > .image:before {
 				background-color: #ae85ca;
 			}
@@ -2737,6 +2741,10 @@ input, select, textarea {
 
 			.tiles article.style6 > a {
 				color: #000000;  /* Change to whatever color you want */
+			}
+
+			.tiles article.style6 > a:hover {
+				color: #000000 !important;  /* Change to whatever color you want */
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
