@@ -2732,7 +2732,11 @@ input, select, textarea {
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #ffffff;
+			}
+
+			.tiles article.style4 > a {
+				color: #000000;  /* Change to whatever color you want */
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
