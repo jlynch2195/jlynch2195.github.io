@@ -3370,6 +3370,7 @@ input, select, textarea {
 .image-group {
     clear: both;
     margin-bottom: 4em;
+	overflow: hidden;  /* Add this line */
 }
 
 .side-image {
