@@ -3366,3 +3366,18 @@ input, select, textarea {
     border-radius: 4px;
     float: left;
 }
+
+.side-image {
+    width: 35%;  /* All images same width */
+    border-radius: 4px;
+    margin: 0 1.5em 1em 0;
+}
+
+.side-image:nth-child(2n) {
+    float: left;
+}
+
+.side-image:nth-child(2n+1) {
+    float: right;
+    margin: 0 0 1em 1.5em;  /* Flip margins for right side */
+}
