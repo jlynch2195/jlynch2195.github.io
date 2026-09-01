@@ -3367,6 +3367,11 @@ input, select, textarea {
     float: left;
 }
 
+.image-group {
+    clear: both;  /* Breaks to new line */
+    margin-bottom: 3em;  /* White space between groups */
+}
+
 .side-image {
     width: 35%;  /* All images same width */
     border-radius: 4px;
@@ -3381,9 +3386,4 @@ input, select, textarea {
 .side-image:nth-child(2n+1) {
     float: left;
     margin: 0 0 1em 1.5em;  /* Flip margins for right side */
-}
-
-.image-group {
-    clear: both;  /* Breaks to new line */
-    margin-bottom: 3em;  /* White space between groups */
 }
