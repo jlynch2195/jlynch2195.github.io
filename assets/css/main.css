@@ -3368,22 +3368,23 @@ input, select, textarea {
 }
 
 .image-group {
-    clear: both;  /* Breaks to new line */
-    margin-bottom: 3em;  /* White space between groups */
+    clear: both;
+    margin-bottom: 3em;
 }
 
 .side-image {
-    width: 35%;  /* All images same width */
+    width: 35%;
     border-radius: 4px;
-    margin: 0 1.5em 1em 0;
-	clear: both;  /* Add this line */
 }
 
-.side-image:nth-child(2n) {
-    float: right;
-}
-
-.side-image:nth-child(2n+1) {
+/* Image 1, 3, 5... float left */
+.image-group:nth-child(odd) .side-image {
     float: left;
-    margin: 0 0 1em 1.5em;  /* Flip margins for right side */
+    margin: 0 1.5em 1em 0;
+}
+
+/* Image 2, 4, 6... float right */
+.image-group:nth-child(even) .side-image {
+    float: right;
+    margin: 0 0 1em 1.5em;  /* Flipped margins */
 }
