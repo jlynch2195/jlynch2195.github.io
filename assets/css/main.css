@@ -3373,10 +3373,6 @@ input, select, textarea {
 	overflow: hidden;  /* Add this line */
 }
 
-.image-group p {
-    margin-left: -1.5em;  /* Space from the image */
-}
-
 .side-image {
     width: 35%;
     border-radius: 4px;
