@@ -3374,7 +3374,7 @@ input, select, textarea {
 }
 
 .image-group p {
-    margin-left: 1.5em;  /* Space from the image */
+    margin-left: -1.5em;  /* Space from the image */
 }
 
 .side-image {
